@@ -1,0 +1,9 @@
+{
+  "id": "codeblock-char-count",
+  "name": "Codeblock Character Count",
+  "version": "1.0.0",
+  "minAppVersion": "1.0.0",
+  "description": "Display character count in code blocks.",
+  "author": "IWM-S",
+  "isDesktopOnly": false
+}

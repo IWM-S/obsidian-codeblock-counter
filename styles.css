@@ -1,0 +1,38 @@
+/* 閲覧モード */
+.markdown-rendered pre {
+  position: relative;
+  min-height: 54px;
+}
+
+.codeblock-char-count {
+  position: absolute;
+  top: 34px;
+  right: 14px;
+  padding: 0;
+  font-size: 11px;
+  line-height: 1;
+  color: var(--text-muted);
+  background-color: transparent;
+  pointer-events: none;
+  user-select: none;
+  z-index: 1;
+}
+
+/* 編集モード (Live Preview / Source Mode) */
+.cm-editor .HyperMD-codeblock-begin {
+  position: relative;
+}
+
+.cm-codeblock-char-count {
+  position: absolute;
+  top: 32px;
+  right: 14px;
+  padding: 0;
+  font-size: 11px;
+  line-height: 1;
+  color: var(--text-muted);
+  background-color: transparent;
+  pointer-events: none;
+  user-select: none;
+  z-index: 1;
+}
